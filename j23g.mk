@@ -34,6 +34,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	media_profiles.xml
 
+# Offmode charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_j23g
 PRODUCT_DEVICE := j23g
