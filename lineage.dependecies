@@ -1,0 +1,63 @@
+[
+
+    {
+        "repository": "J23G/android_device_samsung_scx35-common",
+        "target_path": "device/samsung/scx35-common",
+        "branch": "cm-14.1
+    }
+    
+    {
+        "repository": "J23G/android_device_samsung_scx30g2-common",
+        "target_path": "device/samsung/scx30g2-common",
+        "branch": "cm-14.1"
+    }
+    
+    {
+        "repository": "J23G/android_kernel_samsung_j23g",
+        "target_path": "kernel/samsung/j23g",
+        "branch": "cm-14.1"
+        
+    }
+    
+    {
+        "repository": "J23G/android_vendor_samsung_j23g",
+        "target_path": "vendor/samsung/j23g",
+        "branch": "cm-14.1"
+        
+    }
+ 
+   {
+        "repository": "J23G/android_vendor_samsung_scx30g2-common",
+        "target_path": "vendor/samsung/scx30g2-common",
+        "branch": "cm-14.1"
+        
+    }
+    
+    
+    {
+        "repository": "LineageOS/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "cm-14.1",
+    }
+    
+    {
+       "repository": "remilia15/android_hardware_sprd",
+        "target_path": "hardware/sprd",
+        "branch": "cm-14.1",
+    }
+    
+    {
+        "repository": "LineageOS/android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode",
+        "branch": "cm-14.1"
+    }
+    
+    {
+        
+        "repository": "LineageOS/android_external_stlport",
+        "target_path": "external/stlport",
+        "branch": "cm-14.1",
+    }
+    
+    ]
+
