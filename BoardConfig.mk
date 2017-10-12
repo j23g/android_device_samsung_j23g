@@ -53,7 +53,7 @@ BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/j23g/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_j23g_defconfig
+TARGET_KERNEL_CONFIG := j23g-dt_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j23g
 
 # Resolution
