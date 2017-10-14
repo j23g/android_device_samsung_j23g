@@ -38,7 +38,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images \
     cm_charger_res_images
-
+# Doze
+PRODUCT_PACKAGES += \
+    SamsungDoze
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_j23g
 PRODUCT_DEVICE := j23g
