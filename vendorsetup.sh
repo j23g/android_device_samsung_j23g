@@ -19,5 +19,5 @@
 # function: add_lunch_combo generic-eng
 
 for i in eng user userdebug; do
-add_lunch_combo lineage_j23g-${i};
+add_lunch_combo aosp_j23g-${i};
 done
