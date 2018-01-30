@@ -62,3 +62,7 @@ TARGET_SCREEN_WIDTH := 540
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SM-J200H,j23g,j23gdd
+BLOCK_BASED_OTA := false
+
+# RIL
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/j23g/include

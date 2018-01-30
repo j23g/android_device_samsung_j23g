@@ -39,6 +39,11 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     cm_charger_res_images
 
+# Low-RAM configs
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.fw.bg_apps_limit=10 \
+    config.disable_atlas=true 
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_j23g
 PRODUCT_DEVICE := j23g
