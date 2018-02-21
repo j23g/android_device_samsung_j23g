@@ -50,7 +50,9 @@ WIFI_BAND := 802_11_ABG
 BOARD_HAVE_SAMSUNG_WIFI := true
 
 # Bluetooth
+USE_BLUETOOTH_BCM4343 := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/j23g/bluetooth
+BOARD_CUSTOM_BT_CONFIG := device/samsung/scx35-common/bluetooth/libbt_vndcfg.txt
 
 # Kernel
 TARGET_KERNEL_CONFIG := j23g-dt_defconfig

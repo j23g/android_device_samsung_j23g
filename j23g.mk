@@ -30,9 +30,9 @@ TARGET_SCREEN_WIDTH := 540
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/keylayout/sec_touchscreen.kl:system/usr/keylayout/sec_touchscreen.kl
 
-# Media config
-PRODUCT_PACKAGES += \
-	media_profiles.xml
+# sdcardfs
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sys.sdcardfs=true
 
 # Offmode charger
 PRODUCT_PACKAGES += \
